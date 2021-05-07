@@ -1,0 +1,174 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;;
+}
+
+
+h1{
+    color: rgba(42, 177, 136, 1);
+}
+
+
+
+
+nav{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+
+.search input{
+    padding: 10px;
+    border-radius: 5px;
+    border: solid rgba(0, 0, 0, 0.1);
+}
+
+.search button{
+    background-color: rgba(42, 177, 136, 1);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.menus ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.menus li{
+    margin: 0px 10px;
+}
+
+.menus ul li a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 1);
+}
+
+.sub-menus ul{
+    margin-top: 20px;
+    display: flex;
+    list-style-type: none;
+}
+
+.sub-menus li{
+    margin: 0px 15px;
+}
+
+.sub-menus li a{
+    text-decoration: none;
+    margin: 0px 10px;
+    color: black;
+}
+
+.banner{
+    height: 400px;
+}
+
+.banner h1{
+    padding: 20px;
+    margin-left: 50px;
+    margin-top: 50px;
+    font-size: 3rem;
+}
+
+.banner p{
+    padding: 0px 20px;
+    margin-left: 50px;
+}
+
+.banner button{
+    margin: 70px;
+    padding: 10px 40px;
+    font-size: 1rem;
+    background-color: rgba(42, 177, 136, 1);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.banner img{
+    height: 400px;
+    float: right;
+}
+
+
+.deals h1{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.deals-card{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+
+.deals-card card-text{
+    text-align: center;
+}
+
+.btn-more{
+    padding: 10px;
+    background-color: white;
+    border: solid black;
+    text-align: center;
+    margin-left: 45%;
+    margin-top: 60px;
+    border-radius: 10px;
+}
+
+.section2 {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+    overflow-wrap: break-word;
+}
+
+.section2 h4{
+    margin-top: 30px;
+    text-align: center  ;
+}
+
+.section3{
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+.section3 .card{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.section3 card-text{
+    margin-top: 10px;
+}
+
+
+footer{
+    margin-top: 50px;
+    display: flex;
+    background-color: rgb(48,47,47);
+    justify-content: space-around;
+    padding: 10px;
+}
+
+footer a{
+    
+    color: white;
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+
+footer li{
+    
+    list-style-type: none;
+    line-height: 30px;
+}
